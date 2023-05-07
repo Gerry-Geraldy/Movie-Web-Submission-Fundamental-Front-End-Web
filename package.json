@@ -1,0 +1,40 @@
+{
+  "name": "movie-web-submission-fundamental-front-end-web",
+  "version": "1.0.0",
+  "description": "Movie Web",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerry-Geraldy/Movie-Web-Submission-Fundamental-Front-End-Web.git"
+  },
+  "author": "Gerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerry-Geraldy/Movie-Web-Submission-Fundamental-Front-End-Web/issues"
+  },
+  "homepage": "https://github.com/Gerry-Geraldy/Movie-Web-Submission-Fundamental-Front-End-Web#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "image-loader": "^0.0.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3",
+    "webpack-merge": "^5.8.0",
+    "webpack-plugin": "^1.0.5"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0-alpha3",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}
